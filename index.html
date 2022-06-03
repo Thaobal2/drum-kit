@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>JS Drum Kit</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 class="title">Play sound on key press</h1>
+    <div class="container">
+      <div data-key="81" class="box">
+        <p class="letter">q</p>
+        <span class="letter__name">boom</span>
+      </div>
+      <div data-key="87" class="box">
+        <p class="letter">w</p>
+        <span class="letter__name">clap</span>
+      </div>
+      <div data-key="69" class="box">
+        <p class="letter">e</p>
+        <span class="letter__name">hihat</span>
+      </div>
+      <div data-key="82" class="box">
+        <p class="letter">r</p>
+        <span class="letter__name">kick</span>
+      </div>
+      <div data-key="84" class="box">
+        <p class="letter">t</p>
+        <span class="letter__name">openhat</span>
+      </div>
+      <div data-key="89" class="box">
+        <p class="letter">y</p>
+        <span class="letter__name">openhat</span>
+      </div>
+      <div data-key="85" class="box">
+        <p class="letter">u</p>
+        <span class="letter__name">ride</span>
+      </div>
+      <div data-key="73" class="box">
+        <p class="letter">i</p>
+        <span class="letter__name">snare</span>
+      </div>
+      <div data-key="79" class="box">
+        <p class="letter">o</p>
+        <span class="letter__name">tink</span>
+      </div>
+      <div data-key="80" class="box">
+        <p class="letter">p</p>
+        <span class="letter__name">tom</span>
+      </div>
+    </div>
+
+    <div>
+      <audio src="sounds/boom.wav" data-key="81"></audio>
+      <audio src="sounds/clap.wav" data-key="87"></audio>
+      <audio src="sounds/hihat.wav" data-key="69"></audio>
+      <audio src="sounds/kick.wav" data-key="82"></audio>
+      <audio src="sounds/openhat.wav" data-key="84"></audio>
+      <audio src="sounds/ride.wav" data-key="89"></audio>
+      <audio src="sounds/snare.wav" data-key="85"></audio>
+      <audio src="sounds/tink.wav" data-key="73"></audio>
+      <audio src="sounds/tom.wav" data-key="79"></audio>
+      <audio src="sounds/openhat.wav" data-key="80"></audio>
+      <audio src="sounds/dog-barking.wav" data-key="80"></audio>
+    </div>
+
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
